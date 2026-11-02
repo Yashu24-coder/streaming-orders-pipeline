@@ -1,0 +1,607 @@
+{
+  "events_read": 41236,
+  "events_accepted": 38211,
+  "events_dead_lettered": 3025,
+  "dead_letter_rate_pct": 7.34,
+  "duplicates_dropped": 1179,
+  "late_events": 746,
+  "reason_counts": {
+    "late_event": 746,
+    "bad_type": 246,
+    "unknown_event_type": 341,
+    "unparseable_time": 185,
+    "duplicate_event_id": 1179,
+    "malformed_json": 158,
+    "missing_field": 170
+  },
+  "micro_batches": 83,
+  "window_rows_written": 781,
+  "elapsed_seconds": 9.86,
+  "events_per_second": 4183.0,
+  "window_seconds": 300,
+  "allowed_lateness_seconds": 120,
+  "watermark_max_event_time": "2026-11-01T17:59:59.592992+00:00",
+  "batches": [
+    {
+      "batch_id": 1,
+      "events": 500,
+      "accepted": 467,
+      "dead_lettered": 33,
+      "windows": 7
+    },
+    {
+      "batch_id": 2,
+      "events": 500,
+      "accepted": 468,
+      "dead_lettered": 32,
+      "windows": 10
+    },
+    {
+      "batch_id": 3,
+      "events": 500,
+      "accepted": 466,
+      "dead_lettered": 34,
+      "windows": 10
+    },
+    {
+      "batch_id": 4,
+      "events": 500,
+      "accepted": 470,
+      "dead_lettered": 30,
+      "windows": 10
+    },
+    {
+      "batch_id": 5,
+      "events": 500,
+      "accepted": 461,
+      "dead_lettered": 39,
+      "windows": 10
+    },
+    {
+      "batch_id": 6,
+      "events": 500,
+      "accepted": 470,
+      "dead_lettered": 30,
+      "windows": 10
+    },
+    {
+      "batch_id": 7,
+      "events": 500,
+      "accepted": 467,
+      "dead_lettered": 33,
+      "windows": 11
+    },
+    {
+      "batch_id": 8,
+      "events": 500,
+      "accepted": 463,
+      "dead_lettered": 37,
+      "windows": 6
+    },
+    {
+      "batch_id": 9,
+      "events": 500,
+      "accepted": 455,
+      "dead_lettered": 45,
+      "windows": 9
+    },
+    {
+      "batch_id": 10,
+      "events": 500,
+      "accepted": 464,
+      "dead_lettered": 36,
+      "windows": 10
+    },
+    {
+      "batch_id": 11,
+      "events": 500,
+      "accepted": 470,
+      "dead_lettered": 30,
+      "windows": 10
+    },
+    {
+      "batch_id": 12,
+      "events": 500,
+      "accepted": 463,
+      "dead_lettered": 37,
+      "windows": 10
+    },
+    {
+      "batch_id": 13,
+      "events": 500,
+      "accepted": 460,
+      "dead_lettered": 40,
+      "windows": 10
+    },
+    {
+      "batch_id": 14,
+      "events": 500,
+      "accepted": 452,
+      "dead_lettered": 48,
+      "windows": 10
+    },
+    {
+      "batch_id": 15,
+      "events": 500,
+      "accepted": 467,
+      "dead_lettered": 33,
+      "windows": 11
+    },
+    {
+      "batch_id": 16,
+      "events": 500,
+      "accepted": 460,
+      "dead_lettered": 40,
+      "windows": 8
+    },
+    {
+      "batch_id": 17,
+      "events": 500,
+      "accepted": 459,
+      "dead_lettered": 41,
+      "windows": 10
+    },
+    {
+      "batch_id": 18,
+      "events": 500,
+      "accepted": 461,
+      "dead_lettered": 39,
+      "windows": 10
+    },
+    {
+      "batch_id": 19,
+      "events": 500,
+      "accepted": 455,
+      "dead_lettered": 45,
+      "windows": 10
+    },
+    {
+      "batch_id": 20,
+      "events": 500,
+      "accepted": 466,
+      "dead_lettered": 34,
+      "windows": 10
+    },
+    {
+      "batch_id": 21,
+      "events": 500,
+      "accepted": 466,
+      "dead_lettered": 34,
+      "windows": 10
+    },
+    {
+      "batch_id": 22,
+      "events": 500,
+      "accepted": 464,
+      "dead_lettered": 36,
+      "windows": 10
+    },
+    {
+      "batch_id": 23,
+      "events": 500,
+      "accepted": 473,
+      "dead_lettered": 27,
+      "windows": 11
+    },
+    {
+      "batch_id": 24,
+      "events": 500,
+      "accepted": 460,
+      "dead_lettered": 40,
+      "windows": 6
+    },
+    {
+      "batch_id": 25,
+      "events": 500,
+      "accepted": 464,
+      "dead_lettered": 36,
+      "windows": 10
+    },
+    {
+      "batch_id": 26,
+      "events": 500,
+      "accepted": 469,
+      "dead_lettered": 31,
+      "windows": 10
+    },
+    {
+      "batch_id": 27,
+      "events": 500,
+      "accepted": 457,
+      "dead_lettered": 43,
+      "windows": 10
+    },
+    {
+      "batch_id": 28,
+      "events": 500,
+      "accepted": 465,
+      "dead_lettered": 35,
+      "windows": 10
+    },
+    {
+      "batch_id": 29,
+      "events": 500,
+      "accepted": 454,
+      "dead_lettered": 46,
+      "windows": 10
+    },
+    {
+      "batch_id": 30,
+      "events": 500,
+      "accepted": 456,
+      "dead_lettered": 44,
+      "windows": 10
+    },
+    {
+      "batch_id": 31,
+      "events": 500,
+      "accepted": 459,
+      "dead_lettered": 41,
+      "windows": 10
+    },
+    {
+      "batch_id": 32,
+      "events": 500,
+      "accepted": 473,
+      "dead_lettered": 27,
+      "windows": 6
+    },
+    {
+      "batch_id": 33,
+      "events": 500,
+      "accepted": 460,
+      "dead_lettered": 40,
+      "windows": 10
+    },
+    {
+      "batch_id": 34,
+      "events": 500,
+      "accepted": 456,
+      "dead_lettered": 44,
+      "windows": 10
+    },
+    {
+      "batch_id": 35,
+      "events": 500,
+      "accepted": 456,
+      "dead_lettered": 44,
+      "windows": 10
+    },
+    {
+      "batch_id": 36,
+      "events": 500,
+      "accepted": 462,
+      "dead_lettered": 38,
+      "windows": 10
+    },
+    {
+      "batch_id": 37,
+      "events": 500,
+      "accepted": 456,
+      "dead_lettered": 44,
+      "windows": 10
+    },
+    {
+      "batch_id": 38,
+      "events": 500,
+      "accepted": 462,
+      "dead_lettered": 38,
+      "windows": 10
+    },
+    {
+      "batch_id": 39,
+      "events": 500,
+      "accepted": 455,
+      "dead_lettered": 45,
+      "windows": 6
+    },
+    {
+      "batch_id": 40,
+      "events": 500,
+      "accepted": 472,
+      "dead_lettered": 28,
+      "windows": 8
+    },
+    {
+      "batch_id": 41,
+      "events": 500,
+      "accepted": 472,
+      "dead_lettered": 28,
+      "windows": 10
+    },
+    {
+      "batch_id": 42,
+      "events": 500,
+      "accepted": 464,
+      "dead_lettered": 36,
+      "windows": 10
+    },
+    {
+      "batch_id": 43,
+      "events": 500,
+      "accepted": 472,
+      "dead_lettered": 28,
+      "windows": 10
+    },
+    {
+      "batch_id": 44,
+      "events": 500,
+      "accepted": 464,
+      "dead_lettered": 36,
+      "windows": 10
+    },
+    {
+      "batch_id": 45,
+      "events": 500,
+      "accepted": 469,
+      "dead_lettered": 31,
+      "windows": 10
+    },
+    {
+      "batch_id": 46,
+      "events": 500,
+      "accepted": 460,
+      "dead_lettered": 40,
+      "windows": 10
+    },
+    {
+      "batch_id": 47,
+      "events": 500,
+      "accepted": 458,
+      "dead_lettered": 42,
+      "windows": 6
+    },
+    {
+      "batch_id": 48,
+      "events": 500,
+      "accepted": 473,
+      "dead_lettered": 27,
+      "windows": 10
+    },
+    {
+      "batch_id": 49,
+      "events": 500,
+      "accepted": 464,
+      "dead_lettered": 36,
+      "windows": 10
+    },
+    {
+      "batch_id": 50,
+      "events": 500,
+      "accepted": 453,
+      "dead_lettered": 47,
+      "windows": 10
+    },
+    {
+      "batch_id": 51,
+      "events": 500,
+      "accepted": 466,
+      "dead_lettered": 34,
+      "windows": 10
+    },
+    {
+      "batch_id": 52,
+      "events": 500,
+      "accepted": 461,
+      "dead_lettered": 39,
+      "windows": 10
+    },
+    {
+      "batch_id": 53,
+      "events": 500,
+      "accepted": 465,
+      "dead_lettered": 35,
+      "windows": 10
+    },
+    {
+      "batch_id": 54,
+      "events": 500,
+      "accepted": 460,
+      "dead_lettered": 40,
+      "windows": 10
+    },
+    {
+      "batch_id": 55,
+      "events": 500,
+      "accepted": 463,
+      "dead_lettered": 37,
+      "windows": 5
+    },
+    {
+      "batch_id": 56,
+      "events": 500,
+      "accepted": 464,
+      "dead_lettered": 36,
+      "windows": 9
+    },
+    {
+      "batch_id": 57,
+      "events": 500,
+      "accepted": 463,
+      "dead_lettered": 37,
+      "windows": 10
+    },
+    {
+      "batch_id": 58,
+      "events": 500,
+      "accepted": 454,
+      "dead_lettered": 46,
+      "windows": 10
+    },
+    {
+      "batch_id": 59,
+      "events": 500,
+      "accepted": 463,
+      "dead_lettered": 37,
+      "windows": 10
+    },
+    {
+      "batch_id": 60,
+      "events": 500,
+      "accepted": 468,
+      "dead_lettered": 32,
+      "windows": 10
+    },
+    {
+      "batch_id": 61,
+      "events": 500,
+      "accepted": 470,
+      "dead_lettered": 30,
+      "windows": 10
+    },
+    {
+      "batch_id": 62,
+      "events": 500,
+      "accepted": 471,
+      "dead_lettered": 29,
+      "windows": 10
+    },
+    {
+      "batch_id": 63,
+      "events": 500,
+      "accepted": 477,
+      "dead_lettered": 23,
+      "windows": 6
+    },
+    {
+      "batch_id": 64,
+      "events": 500,
+      "accepted": 459,
+      "dead_lettered": 41,
+      "windows": 10
+    },
+    {
+      "batch_id": 65,
+      "events": 500,
+      "accepted": 457,
+      "dead_lettered": 43,
+      "windows": 10
+    },
+    {
+      "batch_id": 66,
+      "events": 500,
+      "accepted": 472,
+      "dead_lettered": 28,
+      "windows": 10
+    },
+    {
+      "batch_id": 67,
+      "events": 500,
+      "accepted": 465,
+      "dead_lettered": 35,
+      "windows": 10
+    },
+    {
+      "batch_id": 68,
+      "events": 500,
+      "accepted": 470,
+      "dead_lettered": 30,
+      "windows": 10
+    },
+    {
+      "batch_id": 69,
+      "events": 500,
+      "accepted": 463,
+      "dead_lettered": 37,
+      "windows": 10
+    },
+    {
+      "batch_id": 70,
+      "events": 500,
+      "accepted": 465,
+      "dead_lettered": 35,
+      "windows": 11
+    },
+    {
+      "batch_id": 71,
+      "events": 500,
+      "accepted": 450,
+      "dead_lettered": 50,
+      "windows": 6
+    },
+    {
+      "batch_id": 72,
+      "events": 500,
+      "accepted": 463,
+      "dead_lettered": 37,
+      "windows": 9
+    },
+    {
+      "batch_id": 73,
+      "events": 500,
+      "accepted": 455,
+      "dead_lettered": 45,
+      "windows": 10
+    },
+    {
+      "batch_id": 74,
+      "events": 500,
+      "accepted": 461,
+      "dead_lettered": 39,
+      "windows": 10
+    },
+    {
+      "batch_id": 75,
+      "events": 500,
+      "accepted": 464,
+      "dead_lettered": 36,
+      "windows": 10
+    },
+    {
+      "batch_id": 76,
+      "events": 500,
+      "accepted": 467,
+      "dead_lettered": 33,
+      "windows": 10
+    },
+    {
+      "batch_id": 77,
+      "events": 500,
+      "accepted": 456,
+      "dead_lettered": 44,
+      "windows": 10
+    },
+    {
+      "batch_id": 78,
+      "events": 500,
+      "accepted": 471,
+      "dead_lettered": 29,
+      "windows": 10
+    },
+    {
+      "batch_id": 79,
+      "events": 500,
+      "accepted": 458,
+      "dead_lettered": 42,
+      "windows": 5
+    },
+    {
+      "batch_id": 80,
+      "events": 500,
+      "accepted": 462,
+      "dead_lettered": 38,
+      "windows": 10
+    },
+    {
+      "batch_id": 81,
+      "events": 500,
+      "accepted": 468,
+      "dead_lettered": 32,
+      "windows": 10
+    },
+    {
+      "batch_id": 82,
+      "events": 500,
+      "accepted": 467,
+      "dead_lettered": 33,
+      "windows": 10
+    },
+    {
+      "batch_id": 83,
+      "events": 236,
+      "accepted": 221,
+      "dead_lettered": 15,
+      "windows": 5
+    }
+  ]
+}

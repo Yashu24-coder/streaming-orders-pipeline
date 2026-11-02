@@ -1,0 +1,11 @@
+wrote 41,236 events to data/raw/events.jsonl
+  batch  10 | events   500 | accepted   464 | dlq  36 | windows   10
+  batch  20 | events   500 | accepted   466 | dlq  34 | windows   10
+  batch  30 | events   500 | accepted   456 | dlq  44 | windows   10
+  batch  40 | events   500 | accepted   472 | dlq  28 | windows    8
+  batch  50 | events   500 | accepted   453 | dlq  47 | windows   10
+  batch  60 | events   500 | accepted   468 | dlq  32 | windows   10
+  batch  70 | events   500 | accepted   465 | dlq  35 | windows   11
+  batch  80 | events   500 | accepted   462 | dlq  38 | windows   10
+  read 41,236 | accepted 38,211 | dlq 3,025 (7.34%) | 9.86s
+charts written to docs/images/

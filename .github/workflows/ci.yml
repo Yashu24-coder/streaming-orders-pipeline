@@ -1,0 +1,47 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Tests and pipeline run
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Unit tests
+        run: pytest -q
+      - name: End-to-end local run
+        run: |
+          export PYTHONPATH=src
+          python -m streaming.cli produce
+          python -m streaming.cli run
+          python -m streaming.cli report
+      - name: Assert the dead-letter rate is sane
+        run: |
+          python - <<'PY'
+          import json, sys
+          s = json.load(open("reports/run_summary.json"))
+          print(f"accepted {s['events_accepted']:,} / read {s['events_read']:,}, "
+                f"dlq {s['dead_letter_rate_pct']}%")
+          if s["events_accepted"] == 0:
+              sys.exit("nothing was accepted")
+          if s["dead_letter_rate_pct"] > 15:
+              sys.exit("dead-letter rate above 15% - validation is too strict")
+          PY
+      - name: Upload artefacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: streaming-output
+          path: |
+            reports/
+            docs/images/
