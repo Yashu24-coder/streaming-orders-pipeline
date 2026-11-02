@@ -181,9 +181,10 @@ That is the exactly-once claim, tested rather than asserted.
 
 ## Author
 
-Built by **Kavali Yashwanth Royal** -
-[github.com/Yashu24-coder](https://github.com/Yashu24-coder) -
-176301502+Yashu24-coder@users.noreply.github.com
+Built by **Kavali Yashwanth Royal** - data engineer, Bangalore.
+[GitHub](https://github.com/Yashu24-coder) ·
+[LinkedIn](https://www.linkedin.com/in/yashwanth-royal-kavali-226378259) ·
+yashwanthroyal9133@gmail.com
 
 If you are reviewing this, read `src/streaming/windows.py` and
 `tests/test_pipeline.py` first - the watermark and the idempotency test are the
